@@ -1,0 +1,21 @@
+body {
+  background-color: #F3F6FF;
+  color: #555555;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+a.nav-link {
+  color: #333333;
+}
+a.nav-link:hover {
+  color: #F195B2;
+}
+
+button.navbar-toggler {
+  background-color: #F195B2;
+}
+button.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+/*# sourceMappingURL=index.css.map */

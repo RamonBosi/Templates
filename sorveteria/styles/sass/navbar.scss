@@ -1,0 +1,14 @@
+a.nav-link{
+  @include _hover-color($primary);
+  color: $dark;
+}
+
+button.navbar-toggler{
+  background-color: $primary;
+
+  &:focus{
+    box-shadow: none;
+  }
+}
+
+  
