@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["sass/_reset.scss","sass/_variables.scss","sass/navbar.scss","sass/_mixins.scss"],"names":[],"mappings":"AAAA;EACE,kBCGQ;EDFR,OCGW;EDFX;;;AEHF;EAEE,ODCK;;AEDL;EACE,OFHM;;;ACKV;EACE,kBDNQ;;ACQR;EACE","file":"index.css"}
+{"version":3,"sourceRoot":"","sources":["sass/_reset.scss","sass/_variables.scss","sass/_icons.scss","sass/_navbar.scss","sass/_mixins.scss"],"names":[],"mappings":"AAAA;EACE,kBCGQ;EDFR,OCGW;EDFX;;;AEHF;EACE,ODCM;;;AEFR;EAEE,OFCK;;AGDL;EACE,OHHM;;;AEKV;EACE,kBFNQ;;AEQR;EACE","file":"index.css"}
