@@ -4,6 +4,10 @@ body {
   font-family: "Poppins", Arial, Helvetica, sans-serif;
 }
 
+.text-justify {
+  text-align: justify !important;
+}
+
 i.bi {
   color: #FFFFFF;
 }
