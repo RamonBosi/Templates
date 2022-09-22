@@ -2,10 +2,15 @@ body {
   background-color: #F3F6FF;
   color: #555555;
   font-family: "Poppins", Arial, Helvetica, sans-serif;
+  overflow-x: hidden !important;
 }
 
 .text-justify {
   text-align: justify !important;
+}
+
+.hover-bg-secundary:hover {
+  background-color: #36b2e0 !important;
 }
 
 i.bi {

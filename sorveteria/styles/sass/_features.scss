@@ -1,3 +1,7 @@
 .text-justify{
   text-align: justify !important;
 }
+
+.hover-bg-secundary{
+  @include _hover-bg-color($secondary);
+}

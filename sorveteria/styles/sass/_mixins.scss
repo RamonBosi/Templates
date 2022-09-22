@@ -4,3 +4,10 @@
     color: $color;
   }
 }
+
+@mixin _hover-bg-color($color){
+  
+  &:hover{
+    background-color: darken($color,10) !important;
+  }
+}
