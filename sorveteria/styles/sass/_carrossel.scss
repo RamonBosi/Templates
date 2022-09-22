@@ -1,0 +1,8 @@
+i.bi-arrow-right-circle-fill,i.bi-arrow-left-circle-fill{
+
+  &::before{
+    background-color: $light;
+    color: $secondary !important;
+    border-radius: 20px;
+  }
+}

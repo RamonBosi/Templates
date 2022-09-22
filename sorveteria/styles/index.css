@@ -22,4 +22,10 @@ button.navbar-toggler:focus {
   box-shadow: none;
 }
 
+i.bi-arrow-right-circle-fill::before, i.bi-arrow-left-circle-fill::before {
+  background-color: #FFFFFF;
+  color: #62C3E7 !important;
+  border-radius: 20px;
+}
+
 /*# sourceMappingURL=index.css.map */
