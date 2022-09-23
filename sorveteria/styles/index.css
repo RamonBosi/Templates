@@ -2,7 +2,6 @@ body {
   background-color: #F3F6FF;
   color: #555555;
   font-family: "Poppins", Arial, Helvetica, sans-serif;
-  overflow-x: hidden !important;
 }
 
 .text-justify {
