@@ -1,0 +1,32 @@
+.card{
+
+  &:hover{
+    transform: scale(1.02);
+  }
+}
+
+.nav-link{
+  @include _nav-link-hover($light);
+}
+
+.accordion-button{
+
+  &::after{
+    @include _icon-accordion-button();
+  }
+  
+  &:not(.collapsed)::after{
+    @include _icon-accordion-button();
+  }
+}
+
+footer a.link-accordion-hover{
+  @include _link-accordion-hover();
+}
+
+.accordion-button{
+
+  &:hover{
+    background-color: darken($primary, 10) !important;
+  }
+}

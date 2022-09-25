@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="./styles/index.css">
+  <title>Loja Virtual</title>
+</head>
+<body>
+  <header class="border-bottom border-dark border-4"style="background-color:rgb(83,62,133);">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand mx-auto mx-lg-0" style="cursor:pointer;color:rgba(255, 199, 0);font-family:'Courgette',Arial,Helvetica,sans-serif;" href="#">Loja Virtual</a>
+        <button class="navbar-toggler" style="color:white;border: 1px solid white;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <svg xmlns="http://www.w3.org/2000/svg" style="width:30px;height:30px;"fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+          </svg>
+        </button>
+        <div class="collapse navbar-collapse ms-0 ms-lg-2" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="gap:5px">
+            <li class="nav-item">
+              <a class="nav-link px-2" aria-current="page" href="#">Olá selecione seu endereço</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-2" href="#">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-2" href="#">Devoluções e Pedidos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-2" href="#">Carrinho</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main class="container mt-3">
+   <div class="d-flex flex-column mb-3 p-2 py-3 rounded mx-auto" style="max-width: 450px;background-color:rgba(83,62,133);">
+    <div class="d-flex justify-content-between">
+      <button type="button" class="btn btn-danger mb-2" style="width:90px">Resetar</button>
+      <p class="mb-2 mx-auto" style="color:rgba(255, 255, 255);font-size:1.3rem">Filtrar por valor</p>
+    </div>
+    <div class="d-flex flex-column flex-sm-row" style="gap:7px">
+      <div class="input-group">
+        <span class="input-group-text" id="basic-addon1">Mínimo</span>
+        <input type="number" class="form-control" aria-label="mínimo" aria-describedby="basic-addon1">
+      </div>
+      <div class="input-group">
+        <span class="input-group-text" id="basic-addon1">Máximo</span>
+        <input type="number" class="form-control" aria-label="máximo" aria-describedby="basic-addon1">
+      </div>
+      <button type="button" class="btn btn-success" style="width:90px">Filtrar</button>
+    </div>
+   </div>
+   <div class="d-flex flex-wrap justify-content-around" style="gap: 15px 0">
+    <div class="card p-2 rounded" style="width:240px;height: 340px;background-color:rgba(83,62,133);cursor:pointer;">
+      <img class="card-img-top rounded" src="https://compaq.vteximg.com.br/arquivos/ids/155450-1200-1200/Compaq_Presario_430_450_Ang_10_MS.jpg?v=637565485061500000" alt="Produto">
+      <div class="card-body p-0 mt-4 text-light">
+        <p class="card-text m-0" style="font-size: 1.3rem;">Nome do produto</p>
+        <p class="card-text" style="font-size: 1.3rem;">R$1000</p>
+      </div>
+    </div>
+    <div class="card p-2 rounded" style="width:240px;height: 340px;background-color:rgba(83,62,133);cursor:pointer;">
+      <img class="card-img-top rounded" src="https://m.media-amazon.com/images/I/41I-GQBlYyL._SL500_.jpg" alt="Produto">
+      <div class="card-body p-0 mt-4 text-light">
+        <p class="card-text m-0" style="font-size: 1.3rem;">Nome do produto</p>
+        <p class="card-text" style="font-size: 1.3rem;">R$1000</p>
+      </div>
+    </div>
+    <div class="card p-2 rounded" style="width:240px;height: 340px;background-color:rgba(83,62,133);cursor:pointer;">
+      <img class="card-img-top rounded" src="https://images.kabum.com.br/produtos/fotos/156345/notebook-gamer-lenovo-ideapad-gaming-3i-intel-core-i7-10750h-nvidia-geforce-gtx-1650-4gb-8gb-512gb-ssd-15-6-win10-h-azul-82cg0005br_1619712650_gg.jpg" alt="Produto">
+      <div class="card-body p-0 mt-4 text-light">
+        <p class="card-text m-0" style="font-size: 1.3rem;">Nome do produto</p>
+        <p class="card-text" style="font-size: 1.3rem;">R$1000</p>
+      </div>
+    </div>
+    <div class="card p-2 rounded" style="width:240px;height: 340px;background-color:rgba(83,62,133);cursor:pointer;">
+      <img class="card-img-top rounded" src="https://compaq.vteximg.com.br/arquivos/ids/155450-1200-1200/Compaq_Presario_430_450_Ang_10_MS.jpg?v=637565485061500000" alt="Produto">
+      <div class="card-body p-0 mt-4 text-light">
+        <p class="card-text m-0" style="font-size: 1.3rem;">Nome do produto</p>
+        <p class="card-text" style="font-size: 1.3rem;">R$1000</p>
+      </div>
+    </div>
+    <div class="card p-2 rounded" style="width:240px;height: 340px;background-color:rgba(83,62,133);cursor:pointer;">
+      <img class="card-img-top rounded" src="https://m.media-amazon.com/images/I/41I-GQBlYyL._SL500_.jpg" alt="Produto">
+      <div class="card-body p-0 mt-4 text-light">
+        <p class="card-text m-0" style="font-size: 1.3rem;">Nome do produto</p>
+        <p class="card-text" style="font-size: 1.3rem;">R$1000</p>
+      </div>
+    </div>
+    <div class="card p-2 rounded" style="width:240px;height: 340px;background-color:rgba(83,62,133);cursor:pointer;">
+      <img class="card-img-top rounded" src="https://images.kabum.com.br/produtos/fotos/156345/notebook-gamer-lenovo-ideapad-gaming-3i-intel-core-i7-10750h-nvidia-geforce-gtx-1650-4gb-8gb-512gb-ssd-15-6-win10-h-azul-82cg0005br_1619712650_gg.jpg" alt="Produto">
+      <div class="card-body p-0 mt-4 text-light">
+        <p class="card-text m-0" style="font-size: 1.3rem;">Nome do produto</p>
+        <p class="card-text" style="font-size: 1.3rem;">R$1000</p>
+      </div>
+    </div>
+    <div class="card p-2 rounded" style="width:240px;height: 340px;background-color:rgba(83,62,133);cursor:pointer;">
+      <img class="card-img-top rounded" src="https://compaq.vteximg.com.br/arquivos/ids/155450-1200-1200/Compaq_Presario_430_450_Ang_10_MS.jpg?v=637565485061500000" alt="Produto">
+      <div class="card-body p-0 mt-4 text-light">
+        <p class="card-text m-0" style="font-size: 1.3rem;">Nome do produto</p>
+        <p class="card-text" style="font-size: 1.3rem;">R$1000</p>
+      </div>
+    </div>
+    <div class="card p-2 rounded" style="width:240px;height: 340px;background-color:rgba(83,62,133);cursor:pointer;">
+      <img class="card-img-top rounded" src="https://m.media-amazon.com/images/I/41I-GQBlYyL._SL500_.jpg" alt="Produto">
+      <div class="card-body p-0 mt-4 text-light">
+        <p class="card-text m-0" style="font-size: 1.3rem;">Nome do produto</p>
+        <p class="card-text" style="font-size: 1.3rem;">R$1000</p>
+      </div>
+    </div>
+    
+   </div>
+  </main>
+  <footer class="mt-3 py-4 pb-4 border-top border-dark border-4 d-flex flex-column" style="background-color:rgba(83,62,133);">
+    <div class="d-block d-lg-none accordion accordion-flush bg-transparent" id="myAccordion">
+        <div class="accordion-item border-0" style="background-color:rgba(83,62,133);">
+            <h2 class="accordion-header" id="headingOne">
+                <button type="button" style="box-shadow:none;" class="accordion-button bg-transparent collapsed text-light rounded-0 fw-bold fs-5" data-bs-toggle="collapse" data-bs-target="#item1">Conheça-nos</button>									
+            </h2>
+            <div id="item1" class="accordion-collapse collapse px-3 pb-2 rounded-0" style="background-color:rgba(83,62,133);" data-bs-parent="#myAccordion">
+                <div class="card-body d-flex flex-column" style="gap: 4px 0">
+                  <a href = '#' class="link-accordion-hover mt-1">Informações corporativas</a>
+                  <a href = '#' class="link-accordion-hover">Carreiras</a>
+                  <a href = '#' class="link-accordion-hover">Comunicados a imprensa</a>
+                  <a href = '#' class="link-accordion-hover">Comunidade</a>
+                  <a href = '#' class="link-accordion-hover">Acessibilidade</a>
+                  <a href = '#' class="link-accordion-hover">Loja Science</a>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item border-0" style="background-color:rgba(83,62,133);">
+            <h2 class="accordion-header" id="headingOne">
+                <button type="button" style="box-shadow:none;" class="accordion-button bg-transparent collapsed text-light rounded-0 fw-bold fs-5" data-bs-toggle="collapse" data-bs-target="#item2">Ganhe dinheiro conosco</button>									
+            </h2>
+            <div id="item2" class="accordion-collapse collapse px-3 pb-2 rounded-0" style="background-color:rgba(83,62,133);" data-bs-parent="#myAccordion">
+                <div class="card-body d-flex flex-column" style="gap: 4px 0">
+                  <a href = '#' class="link-accordion-hover mt-1">Publique seus projetos</a>
+                  <a href = '#' class="link-accordion-hover">Seja um associado</a>
+                  <a href = '#' class="link-accordion-hover">Venda na loja Virtual</a>
+                  <a href = '#' class="link-accordion-hover">Anúncie seus produtos</a>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item border-0" style="background-color:rgba(83,62,133);">
+            <h2 class="accordion-header" id="headingOne">
+                <button type="button" style="box-shadow:none;" class="accordion-button bg-transparent collapsed text-light rounded-0 fw-bold fs-5" data-bs-toggle="collapse" data-bs-target="#item3">Deixe-nos ajudar voçê</button>									
+            </h2>
+            <div id="item3" class="accordion-collapse collapse px-3 pb-2 rounded-0" style="background-color:rgba(83,62,133);" data-bs-parent="#myAccordion">
+                <div class="card-body d-flex flex-column" style="gap: 4px 0">
+                  <a href = '#' class="link-accordion-hover mt-1">Loja e COVID-19</a>
+                  <a href = '#' class="link-accordion-hover">Sua conta</a>
+                  <a href = '#' class="link-accordion-hover">Frete e prazo de entrega</a>
+                  <a href = '#' class="link-accordion-hover">Devoluções e reembolsos</a>
+                  <a href = '#' class="link-accordion-hover">Gerencie seu conteúdo e dispositivos</a>
+                  <a href = '#' class="link-accordion-hover">Ajuda</a>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item border-0" style="background-color:rgba(83,62,133);">
+            <h2 class="accordion-header" id="headingOne">
+                <button type="button" style="box-shadow:none;" class="accordion-button bg-transparent collapsed text-light rounded-0 fw-bold fs-5" data-bs-toggle="collapse" data-bs-target="#item4">Pagamentos</button>									
+            </h2>
+            <div id="item4" class="accordion-collapse collapse px-3 pb-2 rounded-0" style="background-color:rgba(83,62,133);" data-bs-parent="#myAccordion">
+                <div class="card-body d-flex flex-column" style="gap: 4px 0">
+                  <a href = '#' class="link-accordion-hover mt-1">Cartão de crédito, cartões de debito, Boletos e Pix</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid align-self-center d-none d-lg-flex row justify-content-center">
+      <div class="col">
+        <div class="d-flex flex-column" style="gap: 7px 0">
+          <h2 class="fw-bold fs-5 text-light m-0">Conheça-nos</h2>
+          <a href = '#' class="link-accordion-hover">Informações corporativas</a>
+          <a href = '#' class="link-accordion-hover">Carreiras</a>
+          <a href = '#' class="link-accordion-hover">Comunicados a imprensa</a>
+          <a href = '#' class="link-accordion-hover">Comunidade</a>
+          <a href = '#' class="link-accordion-hover">Acessibilidade</a>
+          <a href = '#' class="link-accordion-hover">Loja Science</a>
+        </div>
+      </div>
+      <div class="col">
+        <div class="d-flex flex-column" style="gap: 7px 0">
+          <h2 class="fw-bold fs-5 text-light m-0">Ganhe dinheiro conosco</h2>
+          <a href = '#' class="link-accordion-hover">Publique seus projetos</a>
+            <a href = '#' class="link-accordion-hover">Seja um associado</a>
+            <a href = '#' class="link-accordion-hover">Venda na loja Virtual</a>
+            <a href = '#' class="link-accordion-hover">Anúncie seus produtos</a>
+        </div>
+      </div>
+      <div class="col">
+        <div class="d-flex flex-column" style="gap: 7px 0">
+          <h2 class="fw-bold fs-5 text-light m-0">Deixe-nos ajudar voçê</h2>
+          <a href = '#' class="link-accordion-hover">Loja e COVID-19</a>
+            <a href = '#' class="link-accordion-hover">Sua conta</a>
+            <a href = '#' class="link-accordion-hover">Frete e prazo de entrega</a>
+            <a href = '#' class="link-accordion-hover">Devoluções e reembolsos</a>
+            <a href = '#' class="link-accordion-hover">Gerencie seu conteúdo e dispositivos</a>
+            <a href = '#' class="link-accordion-hover">Ajuda</a>
+        </div>
+      </div>
+      <div class="col">
+        <div class="d-flex flex-column" style="gap: 7px 0">
+          <h2 class="fw-bold fs-5 text-light m-0">Pagamentos</h2>
+          <a href = '#' class="link-accordion-hover">Cartão de crédito, cartões de debito, Boletos e Pix</a>
+        </div>
+      </div>
+    </div>
+    <a class="mt-4 align-self-center fs-4" style="cursor:pointer;color:rgba(255, 199, 0);font-family:'Courgette',Arial,Helvetica,sans-serif;text-decoration: none;" href="#">Loja Virtual</a>
+  </footer>
+  <script src="./js/bootstrap/bootstrap.bundle.min.js"></script>
+</body>
+</html>

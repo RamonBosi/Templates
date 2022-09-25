@@ -1,5 +1,5 @@
 {
   "scripts": {
-    "compilar-sass": "npx sass --watch ./sorveteria/styles/sass/index.scss ./sorveteria/styles/index.css"
+    "compilar-sass": "npx sass --watch ./loja/styles/sass/index.scss ./loja/styles/index.css"
   }
 }
