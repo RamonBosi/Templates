@@ -1,4 +1,9 @@
 .card{
+  @extend .bg-primary;
+  width:240px;
+  height:340px;
+  cursor:pointer;
+  color:$light !important;
 
   &:hover{
     transform: scale(1.02);

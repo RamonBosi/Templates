@@ -8,10 +8,16 @@ body {
   margin: 0;
 }
 
-.bg-primary {
+.bg-primary, .card {
   background-color: rgb(83, 62, 133) !important;
 }
 
+.card {
+  width: 240px;
+  height: 340px;
+  cursor: pointer;
+  color: rgb(255, 255, 255) !important;
+}
 .card:hover {
   transform: scale(1.02);
 }
