@@ -1,12 +1,11 @@
 @mixin _nav-link-hover($color){
   border-radius: 10px;
   border: 2px solid transparent;
-  color: $light;
+  color: $color !important;
   text-decoration: none;
 
   &:hover{
     border:2px solid $color;
-    color: $light;
   }
 }
 

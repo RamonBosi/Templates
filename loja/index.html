@@ -6,6 +6,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
   <link rel="stylesheet" href="./styles/bootstrap/bootstrap.min.css">
   <link rel="stylesheet" href="./styles/index.css">
   <title>Loja Virtual</title>
@@ -15,10 +16,8 @@
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
         <a class="navbar-brand mx-auto mx-lg-0" style="cursor:pointer;color:rgba(255, 199, 0);font-family:'Courgette',Arial,Helvetica,sans-serif;" href="#">Loja Virtual</a>
-        <button class="navbar-toggler" style="color:white;border: 1px solid white;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <svg xmlns="http://www.w3.org/2000/svg" style="width:30px;height:30px;"fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
-            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
-          </svg>
+        <button class="navbar-toggler text-white border-white border-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="bi bi-list fs-2"></i>
         </button>
         <div class="collapse navbar-collapse ms-0 ms-lg-2" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="gap:5px">
@@ -47,16 +46,16 @@
    <div class="bg-primary d-flex flex-column mb-3 p-2 py-3 rounded mx-auto" style="max-width: 450px;">
     <div class="d-flex justify-content-between">
       <button type="button" class="btn btn-danger mb-2" style="width:90px">Resetar</button>
-      <p class="mb-2 mx-auto" style="color:rgba(255, 255, 255);font-size:1.3rem">Filtrar por valor</p>
+      <p class="mb-2 mx-auto text-white fs-5">Filtrar por valor</p>
     </div>
     <div class="d-flex flex-column flex-sm-row" style="gap:7px">
       <div class="input-group">
         <span class="input-group-text" id="basic-addon1">Mínimo</span>
-        <input type="number" class="form-control" aria-label="mínimo" aria-describedby="basic-addon1">
+        <input type="number" class="form-control remove-input-number-arrows" aria-label="mínimo" aria-describedby="basic-addon1">
       </div>
       <div class="input-group">
         <span class="input-group-text" id="basic-addon1">Máximo</span>
-        <input type="number" class="form-control" aria-label="máximo" aria-describedby="basic-addon1">
+        <input type="number" class="form-control remove-input-number-arrows" aria-label="máximo" aria-describedby="basic-addon1">
       </div>
       <button type="button" class="btn btn-success" style="width:90px">Filtrar</button>
     </div>

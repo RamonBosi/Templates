@@ -12,6 +12,16 @@ body {
   background-color: rgb(83, 62, 133) !important;
 }
 
+.nav-link {
+  border-radius: 10px;
+  border: 2px solid transparent;
+  color: rgb(255, 255, 255) !important;
+  text-decoration: none;
+}
+.nav-link:hover {
+  border: 2px solid rgb(255, 255, 255);
+}
+
 .card {
   width: 240px;
   height: 340px;
@@ -22,15 +32,16 @@ body {
   transform: scale(1.02);
 }
 
-.nav-link {
-  border-radius: 10px;
-  border: 2px solid transparent;
-  color: rgb(255, 255, 255);
-  text-decoration: none;
+.form-control {
+  border: none !important;
 }
-.nav-link:hover {
-  border: 2px solid rgb(255, 255, 255);
-  color: rgb(255, 255, 255);
+.form-control:focus {
+  outline: 0;
+  box-shadow: none;
+}
+
+input[type=number].form-control::-webkit-inner-spin-button {
+  all: unset;
 }
 
 .accordion-button::after {
