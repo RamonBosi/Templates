@@ -1,5 +1,12 @@
 .nav-link{
-  @include _nav-link-hover($light);
+  border-radius: 10px;
+  border: 2px solid transparent;
+  color: $light !important;
+  text-decoration: none;
+
+  &:hover{
+    border:2px solid $light;
+  }
 }
 
 .brand{
@@ -31,6 +38,7 @@
 
 input[type="number"].form-control{
 
+  // Retira as setas dos input de tipo number
   &::-webkit-inner-spin-button{ 
     all: unset; 
   }
@@ -39,7 +47,7 @@ input[type="number"].form-control{
 .accordion-button{
 
   &::after, &:not(.collapsed)::after{
-    @include _icon-accordion-button();
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="%23fff" class="bi bi-caret-down-fill" viewBox="0 0 16 16"><path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/></svg>');
   }
 
   &:hover{
@@ -48,5 +56,10 @@ input[type="number"].form-control{
 }
 
 footer a.link-accordion-hover{
-  @include _link-accordion-hover();
+  color: $light;
+  text-decoration: none;
+
+  &:hover{
+    text-decoration: underline;
+  }
 }
