@@ -32,11 +32,7 @@ input[type="number"].form-control{
 
 .accordion-button{
 
-  &::after{
-    @include _icon-accordion-button();
-  }
-  
-  &:not(.collapsed)::after{
+  &::after, &:not(.collapsed)::after{
     @include _icon-accordion-button();
   }
 }
