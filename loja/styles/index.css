@@ -3,11 +3,6 @@ body {
   color: rgb(243, 246, 255);
 }
 
-.row, .col {
-  padding: 0;
-  margin: 0;
-}
-
 .bg-primary, .card {
   background-color: rgb(83, 62, 133) !important;
 }
@@ -20,6 +15,12 @@ body {
 }
 .nav-link:hover {
   border: 2px solid rgb(255, 255, 255);
+}
+
+.brand {
+  color: rgb(255, 199, 0) !important;
+  font-family: "Courgette", Arial, Helvetica, sans-serif;
+  text-decoration: none;
 }
 
 .card {
@@ -47,6 +48,9 @@ input[type=number].form-control::-webkit-inner-spin-button {
 .accordion-button::after, .accordion-button:not(.collapsed)::after {
   background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="%23fff" class="bi bi-caret-down-fill" viewBox="0 0 16 16"><path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/></svg>');
 }
+.accordion-button:hover {
+  background-color: #3d2e62 !important;
+}
 
 footer a.link-accordion-hover {
   color: rgb(255, 255, 255);
@@ -54,10 +58,6 @@ footer a.link-accordion-hover {
 }
 footer a.link-accordion-hover:hover {
   text-decoration: underline;
-}
-
-.accordion-button:hover {
-  background-color: #3d2e62 !important;
 }
 
 /*# sourceMappingURL=index.css.map */

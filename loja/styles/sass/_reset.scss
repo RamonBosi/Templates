@@ -3,11 +3,6 @@ body{
   color:$body-color;
 }
 
-.row, .col{
-  padding:0;
-  margin:0;
-}
-
 .bg-primary{
   background-color: $primary !important;
 }
